@@ -64,4 +64,11 @@
 		border-radius: 6px;
 		overflow: hidden;
 	}
+	@media (resolution >= 1.5dppx), (resolution >= 144dpi) {
+  .cardBox::before {
+      inset: -2px;
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+  }
+}
 </style>
