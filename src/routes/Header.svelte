@@ -13,13 +13,16 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/card-mousemove-border' ? 'page' : undefined}>
+				<a href="/card-mousemove-border">卡片边框根据鼠标移动变色</a>
+			</li>
 		</ul>
 	</nav>
 </header>
 
 <style>
 	header {
-		position: absolute;
+		/* position: absolute; */
 		left: 0;
 	}
 
