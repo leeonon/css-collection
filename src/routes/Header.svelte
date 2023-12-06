@@ -16,6 +16,9 @@
 			<li aria-current={$page.url.pathname === '/card-mousemove-border' ? 'page' : undefined}>
 				<a href="/card-mousemove-border">卡片边框根据鼠标移动变色</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/css-container-quer' ? 'page' : undefined}>
+				<a href="/css-container-query">CSS Container Query</a>
+			</li>
 		</ul>
 	</nav>
 </header>
