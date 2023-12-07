@@ -1,7 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
 </script>
 
 <header>
@@ -21,6 +19,9 @@
 			</li>
 			<li aria-current={$page.url.pathname === '/tailwindcss/ten-trick' ? 'page' : undefined}>
 				<a href="/tailwindcss/ten-trick">TailWindCSS/ten-trick</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/tailwindcss/utils' ? 'page' : undefined}>
+				<a href="/tailwindcss/utils">TailWindCss/Utils</a>
 			</li>
 		</ul>
 	</nav>
