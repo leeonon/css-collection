@@ -19,6 +19,9 @@
 			<li aria-current={$page.url.pathname === '/css-container-quer' ? 'page' : undefined}>
 				<a href="/css-container-query">CSS Container Query</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/tailwindcss/ten-trick' ? 'page' : undefined}>
+				<a href="/tailwindcss/ten-trick">TailWindCSS/ten-trick</a>
+			</li>
 		</ul>
 	</nav>
 </header>
